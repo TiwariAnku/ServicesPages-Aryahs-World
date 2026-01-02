@@ -1,0 +1,10 @@
+app.css html {
+  scroll-behavior: smooth;
+}
+
+/* Remove max-width constraint for full-width design */
+#root {
+  width: 100%;
+  margin: 0;
+  padding: 0 auto;
+}
