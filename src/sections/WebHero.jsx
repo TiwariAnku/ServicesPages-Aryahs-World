@@ -49,7 +49,7 @@ const WebHero = () => {
         {/* Buttons */}
         <div className="mt-12 flex justify-center gap-6">
           <button
-          onClick={() => navigate("/genai-automation-services")}
+          onClick={() => navigate("/saas-product-engineering")}
             className="
               px-8 py-3.5
               rounded-md
