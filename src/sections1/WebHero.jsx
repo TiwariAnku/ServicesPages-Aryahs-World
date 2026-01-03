@@ -1,6 +1,9 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
+
 
 const WebHero = () => {
+   const navigate = useNavigate();
   return (
     <section className="w-full bg-[#f8fafc]">
       <div
@@ -48,6 +51,7 @@ const WebHero = () => {
         {/* Buttons */}
         <div className="mt-12 flex justify-center gap-6">
           <button
+             onClick={() => navigate("/saas-product-engineering")}
             className="
               px-8 py-3.5
               rounded-md

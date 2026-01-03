@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/AIMLpage";
 import GenAI from "./pages/GenAIPage";
 import SaasAI from "./pages/SaaSPage";
+import EdTech from "./pages/EdTechPage";
 
 
 
@@ -28,6 +29,11 @@ const App = () => {
         <Route
           path="/saas-product-engineering"
           element={<SaasAI />}
+        />
+          {/* SaaS Service Page */}
+        <Route
+          path="/EdTech"
+          element={<EdTech />}
         />
    
 

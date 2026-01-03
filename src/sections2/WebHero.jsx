@@ -22,7 +22,7 @@ const WebHero = () => {
 
         <div className="mt-12 flex justify-center gap-6">
           <button
-            onClick={() => navigate("/saas-product-engineering")}
+            onClick={() => navigate("/EdTech")}
             className="px-8 py-3.5 rounded-md bg-blue-600 text-white font-medium hover:bg-blue-700 transition"
           >
             Get Started
